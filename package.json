@@ -1,5 +1,5 @@
 {
-  "name": "@michaelfarrelly/supercluster",
+  "name": "@mikefarrelly/supercluster",
   "version": "7.1.1",
   "description": "A very fast geospatial point clustering library.",
   "main": "dist/supercluster.js",

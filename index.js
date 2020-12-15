@@ -282,7 +282,7 @@ export default class Supercluster {
                 }
 
                 // When minPoints set to 1, no neighborIds found, still set the clusterProperties.
-                if (!clusterProperties) clusterProperties = this._map(p, true);
+                if (minPoints === 1 && !clusterProperties) clusterProperties = this._map(p, true);
 
                 p.parentId = id;
                 clusters.push(createCluster(wx / numPoints, wy / numPoints, id, numPoints, clusterProperties));
